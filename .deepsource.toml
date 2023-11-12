@@ -1,9 +1,10 @@
 version = 1
+
 [[analyzers]]
-name = "test-coverage"
-enabled = true
+name = "shell"
+
 [[analyzers]]
-name = "go"
+name = "python"
 
   [analyzers.meta]
-  import_root = "goa.design/goa/v3"
+  runtime_version = "3.x.x"
